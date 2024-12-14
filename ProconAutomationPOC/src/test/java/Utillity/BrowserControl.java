@@ -72,7 +72,7 @@ public class BrowserControl {
         }
     }
 
-    public static void openedgeBrowser() {
+    public static void openEdgeBrowser() {
         PageFactory.initElements(WebDriverFactory.driver, LoginPageLocators.class);
 
         loadPropertiesFile();
@@ -120,7 +120,7 @@ public class BrowserControl {
         }
     }
 
-    public static void openfirboxBrowser() {
+    public static void openFirefoxBrowser() {
 
         loadPropertiesFile();
 
@@ -145,29 +145,31 @@ public class BrowserControl {
     }
 
     public static void driverBrowser(String browserType) {
-        switch (browserType.toLowerCase()) {
-            case "chrome":
-                openChromeBrowser();
-                logger.info("Chrome Driver lanched");
-                break;
+        try {
+            switch (browserType.toLowerCase()) {
+                case "chrome":
+                    openChromeBrowser();
+                    logger.info("Chrome Driver launched successfully.");
+                    break;
 
-            case "firefox":
-                openfirboxBrowser();
-                logger.info("firbox Driver lanched");
+                case "firefox":
+                    openFirefoxBrowser();  // Fixed typo here
+                    logger.info("Firefox Driver launched successfully.");
+                    break;
 
-                break;
+                case "edge":
+                    openEdgeBrowser();  // Ensure correct method name
+                    logger.info("Edge Driver launched successfully.");
+                    break;
 
-            case "edge":
-                openedgeBrowser();
-                logger.info("edge Driver lanched");
-
-                break;
-
-            default:
-                throw new IllegalArgumentException("Invalid browser name: " + browserType);
+                default:
+                    logger.error("Invalid browser name: " + browserType);
+                    throw new IllegalArgumentException("Invalid browser name: " + browserType);
+            }
+        } catch (Exception e) {
+            logger.error("Error launching browser: ", e);
+            throw e;  // Rethrow the exception to ensure failure is visible
         }
-
-
     }
 
     private String getDriverPath() {

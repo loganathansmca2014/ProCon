@@ -31,8 +31,8 @@ public class CustomReportGen {
         String projectName = new File(projectDirectory).getName();
 
         // Set the output directory and JSON files for the report
-        Date runDate = new Date();
-        File reportOutputDirectory = new File("reports");
+        String timestamp = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss").format(new Date());
+        File reportOutputDirectory = new File("reports/cucumber-html-reports-" + timestamp);
         List<String> jsonFiles = new ArrayList<>();
         jsonFiles.add("target/cucumber.json");
 
@@ -44,7 +44,7 @@ public class CustomReportGen {
         configuration.addClassifications("Project Name", projectName);
         configuration.addClassifications("Team Name", "POC");
         configuration.addClassifications("Report Directory", "reports");
-        configuration.addClassifications("Execution Date", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+        configuration.addClassifications("Execution Date", timestamp);
         configuration.addClassifications("Platform", "Windows");
         configuration.addClassifications("Java Version", System.getProperty("java.version"));
         configuration.addClassifications("Git Branch", System.getenv("BRANCH_NAME") != null ? System.getenv("BRANCH_NAME") : "master");

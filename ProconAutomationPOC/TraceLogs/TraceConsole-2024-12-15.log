@@ -198,3 +198,254 @@
 00:52:59.690 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
 00:53:03.111 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
 00:53:03.230 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+01:03:12.265 [main] INFO  Utillity.HelperFunction - Scenario called 
+01:03:12.271 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:03:12.276 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+01:03:12.276 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:03:12.279 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+01:03:12.297 [main] INFO  Utillity.HelperFunction - Report directory deleted successfully.
+01:03:12.333 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+01:03:16.241 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+01:03:16.263 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+01:03:23.603 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+01:03:29.494 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+01:03:31.343 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+01:03:34.185 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+01:03:34.314 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+01:08:02.864 [main] INFO  Utillity.HelperFunction - Scenario called 
+01:08:02.871 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:08:02.876 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+01:08:02.877 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:08:02.879 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+01:08:02.910 [main] INFO  Utillity.HelperFunction - Report directory deleted successfully.
+01:08:02.970 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+01:08:22.680 [main] INFO  Utillity.HelperFunction - Scenario called 
+01:08:22.686 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:08:22.690 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+01:08:22.690 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:08:22.693 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+01:08:22.693 [main] WARN  Utillity.HelperFunction - Report directory not exists or could not be created.
+01:08:22.740 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+01:08:27.048 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+01:08:27.079 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+01:08:33.229 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+01:08:39.089 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+01:08:40.857 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+01:08:43.951 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+01:08:44.075 [main] INFO  Utillity.CustomReportGen - Custom HTML injected successfully.
+01:13:05.316 [main] INFO  Utillity.HelperFunction - Scenario called 
+01:13:05.321 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:13:05.324 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+01:13:05.324 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:13:05.326 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+01:13:05.351 [main] INFO  Utillity.HelperFunction - Report directory deleted successfully.
+01:13:05.404 [main] DEBUG Utillity.BrowserControl - Edge browser driver initialization started.
+01:13:09.419 [main] ERROR Utillity.BrowserControl - Error while initializing or launching Edge browser: 
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CODUNT-25', ip: '192.168.31.31'
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --inprivate], binary: C:\Program Files (x86)\Micr..., extensions: []}, ms:inPrivate: true, prefs: {download.prompt_for_download: false, profile.default_content_settings.popups: 0}, useAutomationExtension: false}]}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.27.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60) ~[selenium-edge-driver-4.27.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56) ~[selenium-edge-driver-4.27.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48) ~[selenium-edge-driver-4.27.0.jar:?]
+	at Utillity.BrowserControl.openEdgeBrowser(BrowserControl.java:118) ~[test-classes/:?]
+	at Utillity.BrowserControl.driverBrowser(BrowserControl.java:179) ~[test-classes/:?]
+	at StepDefinition.Login.iAmOnTheLoginPage(Login.java:23) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116) ~[cucumber-testng-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113) ~[cucumber-testng-6.8.1.jar:6.8.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31) ~[cucumber-testng-6.8.1.jar:6.8.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.0.jar:7.7.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.0.jar:7.7.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [prefs, useAutomationExtension]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:163) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:580) ~[?:?]
+	at java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:581) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215) ~[?:?]
+	at java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:581) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) ~[?:?]
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:167) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:70) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:99) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:84) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.27.0.jar:?]
+	... 52 more
+01:13:09.498 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+01:13:09.624 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+01:13:11.018 [main] WARN  Utillity.CustomReportGen - Report generated with some failed features.
+01:13:11.072 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+01:13:23.566 [main] INFO  Utillity.HelperFunction - Scenario called 
+01:13:23.570 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:13:23.575 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+01:13:23.576 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:13:23.578 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+01:13:23.606 [main] INFO  Utillity.HelperFunction - Report directory deleted successfully.
+01:13:23.663 [main] DEBUG Utillity.BrowserControl - Edge browser driver initialization started.
+01:13:27.493 [main] ERROR Utillity.BrowserControl - Error while initializing or launching Edge browser: 
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CODUNT-25', ip: '192.168.31.31'
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --inprivate], binary: C:\Program Files (x86)\Micr..., extensions: []}, ms:inPrivate: true, prefs: {download.prompt_for_download: false, profile.default_content_settings.popups: 0}, useAutomationExtension: false}]}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.27.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60) ~[selenium-edge-driver-4.27.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56) ~[selenium-edge-driver-4.27.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48) ~[selenium-edge-driver-4.27.0.jar:?]
+	at Utillity.BrowserControl.openEdgeBrowser(BrowserControl.java:118) ~[test-classes/:?]
+	at Utillity.BrowserControl.driverBrowser(BrowserControl.java:179) ~[test-classes/:?]
+	at StepDefinition.Login.iAmOnTheLoginPage(Login.java:23) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116) ~[cucumber-testng-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117) ~[cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113) ~[cucumber-testng-6.8.1.jar:6.8.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31) ~[cucumber-testng-6.8.1.jar:6.8.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.0.jar:7.7.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.0.jar:7.7.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [prefs, useAutomationExtension]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:163) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:580) ~[?:?]
+	at java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:581) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215) ~[?:?]
+	at java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:581) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) ~[?:?]
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:167) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:70) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:99) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:84) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.27.0.jar:?]
+	... 52 more
+01:13:27.523 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+01:13:27.642 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+01:13:28.766 [main] WARN  Utillity.CustomReportGen - Report generated with some failed features.
+01:13:28.825 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+01:13:46.548 [main] INFO  Utillity.HelperFunction - Scenario called 
+01:13:46.555 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:13:46.560 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+01:13:46.560 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:13:46.562 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+01:13:46.590 [main] INFO  Utillity.HelperFunction - Report directory deleted successfully.
+01:13:46.636 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+01:13:50.340 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+01:13:50.367 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+01:13:56.542 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+01:14:05.794 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+01:14:07.272 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+01:14:08.792 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+01:14:08.840 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+01:18:04.323 [main] INFO  Utillity.HelperFunction - Scenario called 
+01:18:04.329 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:18:04.334 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+01:18:04.334 [main] INFO  Utillity.HelperFunction - ###############################################################
+01:18:04.337 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+01:18:04.379 [main] INFO  Utillity.HelperFunction - Report directory deleted successfully.
+01:18:04.441 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+01:18:08.221 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+01:18:08.249 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+01:18:14.489 [main] INFO  Utillity.BrowserControl - Edge Driver launched successfully.
+01:18:22.317 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+01:18:23.900 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+01:18:25.775 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+01:18:25.824 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
