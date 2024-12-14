@@ -1,0 +1,200 @@
+00:02:18.543 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:02:18.548 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:02:18.549 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:02:18.550 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:02:18.551 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:02:18.601 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:02:22.089 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:02:22.115 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:02:28.126 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:02:34.743 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:02:36.272 [main] INFO  Utillity.CustomReportGen - Starting report generation...
+00:02:39.725 [main] INFO  Utillity.CustomReportGen - Report generated successfully!
+00:02:39.848 [main] INFO  Utillity.CustomReportGen - Custom HTML injected successfully.
+00:04:23.019 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:04:23.022 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:04:23.024 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:04:23.025 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:04:23.026 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:04:23.079 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:04:26.945 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:04:26.959 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:04:37.224 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:04:42.902 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:04:44.528 [main] INFO  Utillity.CustomReportGen - Starting report generation...
+00:04:47.011 [main] INFO  Utillity.CustomReportGen - Report generated successfully!
+00:04:47.124 [main] INFO  Utillity.CustomReportGen - Custom HTML injected successfully.
+00:08:44.826 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:08:44.830 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:08:44.832 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:08:44.833 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:08:44.834 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:08:44.885 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:08:48.349 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:08:48.373 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:08:57.487 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:09:02.479 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:09:04.181 [main] INFO  Utillity.CustomReportGen - ##################### Starting Report Generation #####################
+00:09:04.185 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:09:06.578 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:09:06.578 [main] INFO  Utillity.CustomReportGen - ##################### Report Generation Completed #####################
+00:12:41.183 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:12:41.187 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:12:41.190 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:12:41.190 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:12:41.194 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:12:41.269 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:12:44.789 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:12:44.808 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:12:55.632 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:13:01.827 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:13:03.380 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:13:05.375 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:13:05.477 [main] INFO  Utillity.CustomReportGen - Custom HTML injected successfully.
+00:28:04.884 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:28:04.892 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:28:04.898 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:28:04.898 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:28:04.900 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:28:05.004 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:28:08.609 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:28:08.640 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:28:15.258 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:28:21.191 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:28:22.647 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:28:24.726 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:28:24.824 [main] INFO  Utillity.CustomReportGen - Custom HTML injected successfully.
+00:29:40.177 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:29:40.181 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:29:40.184 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:29:40.184 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:29:40.186 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:29:40.242 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:29:43.633 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:29:43.650 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:29:49.670 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:29:56.157 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:29:57.926 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:30:00.142 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:30:00.239 [main] INFO  Utillity.CustomReportGen - Custom HTML injected successfully.
+00:32:27.800 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:32:27.804 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:32:27.807 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:32:27.808 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:32:27.809 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:32:27.859 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:32:31.428 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:32:31.447 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:32:40.182 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:32:46.120 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:32:48.342 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:32:50.506 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:32:50.601 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+00:34:49.528 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:34:49.533 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:34:49.536 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:34:49.536 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:34:49.538 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:34:49.587 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:34:53.065 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:34:53.083 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:35:00.240 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:35:05.061 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:35:06.568 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:35:08.715 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:35:08.802 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+00:36:52.672 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:36:52.675 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:36:52.679 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:36:52.679 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:36:52.680 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:36:52.728 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:36:56.138 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:36:56.162 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:37:08.131 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:37:14.521 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:37:16.132 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:37:18.156 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:37:18.224 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+00:38:53.263 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:38:53.268 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:38:53.272 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:38:53.272 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:38:53.274 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:38:53.323 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:38:59.585 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:38:59.612 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:39:05.531 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:39:11.207 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:39:12.945 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:39:15.637 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:39:15.742 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+00:40:06.864 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:40:06.868 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:40:06.871 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:40:06.871 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:40:06.873 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:40:06.928 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:40:11.892 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:40:11.926 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:40:19.426 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:40:26.144 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:40:27.845 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:40:30.666 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:40:30.791 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+00:41:12.960 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:41:12.967 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:41:12.972 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:41:12.972 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:41:12.975 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:41:13.034 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:41:16.853 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:41:16.880 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:41:22.330 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:41:29.368 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:41:31.120 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:41:33.929 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:41:34.047 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+00:43:06.965 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:43:06.969 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:43:06.972 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:43:06.973 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:43:06.975 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:43:07.034 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:43:10.908 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:43:10.936 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:43:19.915 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:43:25.479 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:43:27.310 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:43:29.853 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:43:29.963 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
+00:49:29.475 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:49:29.480 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:49:29.484 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:49:29.484 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:49:29.486 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:49:47.561 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:49:47.567 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:49:47.571 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:49:47.571 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:49:47.576 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:49:59.461 [main] WARN  Utillity.HelperFunction - Report directory not exists or could not be created.
+00:52:18.296 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:52:18.302 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:52:18.306 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:52:18.306 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:52:18.309 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:52:40.417 [main] INFO  Utillity.HelperFunction - Scenario called 
+00:52:40.422 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:52:40.426 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+00:52:40.426 [main] INFO  Utillity.HelperFunction - ###############################################################
+00:52:40.428 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+00:52:40.446 [main] INFO  Utillity.HelperFunction - Report directory deleted successfully.
+00:52:40.478 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+00:52:44.300 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+00:52:44.327 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+00:52:50.984 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+00:52:57.665 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy, Welcome into Procon LandingPage
+00:52:59.690 [main] DEBUG Utillity.CustomReportGen - Report generation initiated...
+00:53:03.111 [main] INFO  Utillity.CustomReportGen - Report successfully generated. No failed features.
+00:53:03.230 [main] INFO  Utillity.CustomReportGen - Custom table styles and branding injected successfully.
