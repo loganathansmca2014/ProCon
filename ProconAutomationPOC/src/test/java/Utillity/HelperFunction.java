@@ -53,7 +53,16 @@ public class HelperFunction {
 
             }
         }
-        FileUtils.deleteDirectory(new File("reports"));
+        File reportOutputDirectory = new File("reports");
+
+// Ensure the directory exists, create if it doesn't
+        if (reportOutputDirectory.exists()) {
+            FileUtils.deleteDirectory(new File("reports"));
+                logger.info("Report directory deleted successfully.");
+            } else {
+                logger.warn("Report directory not exists or could not be created.");
+            }
+
     }
 
     @After
