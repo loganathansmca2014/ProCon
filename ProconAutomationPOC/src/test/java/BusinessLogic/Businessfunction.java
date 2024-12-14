@@ -232,40 +232,30 @@ public class Businessfunction {
     }
 
     public static void toRFQpurchese(String pOrg, String pGrp) {
+        // Initialize page locators
         PageFactory.initElements(driver, RFQPageLocators.class);
 
+        // Select purchase organization
         RFQPageLocators.clickpurchase_Organization.click();
-      /*  RFQPageLocators.Search.click();
-        RFQPageLocators.Search.sendKeys(pOrg);
-        RFQPageLocators.Search.sendKeys(Keys.ARROW_DOWN);
-        RFQPageLocators.Search.sendKeys(Keys.ENTER);*/
-        List<String> listOfp_org = RFQPageLocators.purchase_Organization.stream().map(WebElement::getText)
-                .collect(Collectors.toList());
-        listOfp_org.removeIf(item -> item.isEmpty() || item.equals("Select"));
+        RFQPageLocators.purchase_Organization.stream()
+                .filter(it -> !it.getText().isEmpty() && !it.getText().equals("Select") && it.getText().contains(pOrg))
+                .findFirst()
+                .ifPresent(it -> {
+                    it.click();
+                    waitForPageLoad(driver);
+                });
 
-        for (String actualp_org : listOfp_org) {
-            if (actualp_org.contains(pOrg)) {
-                RFQPageLocators.purchase_Organization.stream().filter(It -> It.getText().contains(pOrg)).findFirst().ifPresent(WebElement::click);
-                waitForPageLoad(driver);
-                break;
-            }
-        }
+        // Select purchase group
         RFQPageLocators.clickdpurchase_grp.click();
-       /* RFQPageLocators.Search.click();
-        RFQPageLocators.Search.sendKeys(pGrp);
-        RFQPageLocators.Search.sendKeys(Keys.ARROW_DOWN);
-        RFQPageLocators.Search.sendKeys(Keys.ENTER);*/
-        List<String> listOfpurchase_grp = RFQPageLocators.purchase_grp.stream().map(WebElement::getText)
-                .collect(Collectors.toList());
-        listOfpurchase_grp.removeIf(item -> item.isEmpty() || item.equals("Select"));
+        RFQPageLocators.purchase_grp.stream()
+                .filter(it -> !it.getText().isEmpty() && !it.getText().equals("Select") && it.getText().equalsIgnoreCase(pGrp))
+                .findFirst()
+                .ifPresent(it -> {
+                    it.click();
+                    waitForPageLoad(driver);
+                });
 
-        for (String actualpurchase_grp : listOfpurchase_grp) {
-            if (actualpurchase_grp.equalsIgnoreCase(pGrp)) {
-                RFQPageLocators.purchase_grp.stream().filter(It -> It.getText().contains(pGrp)).findFirst().ifPresent(WebElement::click);
-                waitForPageLoad(driver);
-                break;
-            }
-        }
+        // Take a screenshot
         HelperFunction.takeScreenshot();
     }
 
