@@ -1,0 +1,302 @@
+09:08:21.895 [main] INFO  Utillity.HelperFunction - Scenario called 
+09:08:21.905 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:08:21.905 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+09:08:21.909 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:08:21.909 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+09:08:22.052 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+09:08:25.297 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+09:08:25.324 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+09:09:27.914 [main] INFO  Utillity.HelperFunction - Scenario called 
+09:09:27.921 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:09:27.925 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+09:09:27.925 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:09:27.929 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+09:09:27.998 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+09:09:32.368 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+09:09:32.411 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+09:09:37.137 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+09:09:44.586 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+09:10:01.413 [main] INFO  Utillity.ReportGen - ###############################################################
+09:10:01.415 [main] DEBUG Utillity.ReportGen - Report Generation called
+09:10:04.370 [main] DEBUG Utillity.ReportGen - Report Generated
+09:10:04.372 [main] INFO  Utillity.ReportGen - ###############################################################
+09:10:40.533 [main] INFO  Utillity.HelperFunction - Scenario called 
+09:10:40.539 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:10:40.547 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+09:10:40.547 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:10:40.549 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+09:10:40.685 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+09:10:44.532 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+09:10:44.566 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+09:10:50.121 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+09:11:02.793 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+09:13:56.602 [main] INFO  Utillity.HelperFunction - Scenario called 
+09:13:56.611 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:13:56.616 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+09:13:56.618 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:13:56.623 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+09:13:56.712 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+09:14:00.898 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+09:14:00.935 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+09:14:06.688 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+09:14:16.364 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+09:17:36.934 [main] INFO  Utillity.HelperFunction - Scenario called 
+09:17:36.942 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:17:36.946 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+09:17:36.946 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:17:36.951 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+09:17:37.027 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+09:17:40.869 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+09:17:40.901 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+09:17:45.582 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+09:17:52.424 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+09:22:45.995 [main] INFO  Utillity.HelperFunction - Scenario called 
+09:22:46.008 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:22:46.015 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+09:22:46.015 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:22:46.019 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+09:22:46.089 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+09:22:49.716 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+09:22:49.740 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+09:22:55.229 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+09:23:02.016 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+09:24:48.668 [main] INFO  Utillity.HelperFunction - Scenario called 
+09:24:48.675 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:24:48.681 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+09:24:48.683 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:24:48.685 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+09:24:48.741 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+09:24:52.307 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+09:24:52.333 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+09:24:58.626 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+09:25:07.431 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+09:25:24.618 [main] INFO  Utillity.ReportGen - ###############################################################
+09:25:24.618 [main] DEBUG Utillity.ReportGen - Report Generation called
+09:25:26.667 [main] DEBUG Utillity.ReportGen - Report Generated
+09:25:26.669 [main] INFO  Utillity.ReportGen - ###############################################################
+09:54:10.718 [main] INFO  Utillity.HelperFunction - Scenario called 
+09:54:10.729 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:54:10.733 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+09:54:10.733 [main] INFO  Utillity.HelperFunction - ###############################################################
+09:54:10.737 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+09:54:10.876 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+09:54:14.812 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+09:54:14.841 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+09:54:21.411 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+09:54:29.370 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+10:03:40.114 [main] INFO  Utillity.HelperFunction - Scenario called 
+10:03:40.121 [main] INFO  Utillity.HelperFunction - ###############################################################
+10:03:40.127 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+10:03:40.127 [main] INFO  Utillity.HelperFunction - ###############################################################
+10:03:40.129 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+10:03:40.183 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+10:03:43.988 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+10:03:44.018 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+10:03:55.864 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+10:04:02.775 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+10:56:11.390 [main] INFO  Utillity.HelperFunction - Scenario called 
+10:56:11.398 [main] INFO  Utillity.HelperFunction - ###############################################################
+10:56:11.404 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+10:56:11.404 [main] INFO  Utillity.HelperFunction - ###############################################################
+10:56:11.406 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+10:56:11.470 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+10:56:15.370 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+10:56:15.393 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+10:56:21.114 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+10:56:29.359 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+10:58:13.938 [main] INFO  Utillity.HelperFunction - Scenario called 
+10:58:13.945 [main] INFO  Utillity.HelperFunction - ###############################################################
+10:58:13.947 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+10:58:13.947 [main] INFO  Utillity.HelperFunction - ###############################################################
+10:58:13.950 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+10:58:14.008 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+10:58:17.513 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+10:58:17.546 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+10:58:24.369 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+10:58:31.283 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:00:02.854 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:00:02.858 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:00:02.862 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+11:00:02.862 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:00:02.864 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+11:00:02.918 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:00:06.573 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:00:06.597 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:00:12.760 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:00:19.600 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:04:10.705 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:04:10.713 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:04:10.719 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+11:04:10.719 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:04:10.721 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+11:04:10.784 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:04:14.858 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:04:14.993 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:04:20.133 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:04:27.944 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:08:54.689 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:08:54.692 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:08:54.698 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+11:08:54.698 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:08:54.698 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+11:08:54.758 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:08:58.252 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:08:58.277 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:09:04.317 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:09:12.217 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:37:33.740 [main] INFO  Utillity.ReportGen - ###############################################################
+11:37:33.740 [main] DEBUG Utillity.ReportGen - Report Generation called
+11:37:34.398 [main] DEBUG Utillity.ReportGen - Report Generated
+11:37:34.400 [main] INFO  Utillity.ReportGen - ###############################################################
+11:41:29.061 [main] INFO  Utillity.ReportGen - ###############################################################
+11:41:29.061 [main] DEBUG Utillity.ReportGen - Report Generation called
+11:41:29.768 [main] DEBUG Utillity.ReportGen - Report Generated
+11:41:29.768 [main] INFO  Utillity.ReportGen - ###############################################################
+11:42:10.008 [main] INFO  Utillity.ReportGen - ###############################################################
+11:42:10.011 [main] DEBUG Utillity.ReportGen - Report Generation called
+11:42:10.706 [main] DEBUG Utillity.ReportGen - Report Generated
+11:42:10.706 [main] INFO  Utillity.ReportGen - ###############################################################
+11:43:13.940 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:43:13.946 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:43:13.951 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+11:43:13.951 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:43:13.951 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+11:43:13.997 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:43:17.472 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:43:17.491 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:43:23.107 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:43:31.113 [main] INFO  BusinessLogic.Businessfunction - Hi  Welcome into Procon LandingPage
+11:43:32.559 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:43:32.559 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:43:32.559 [main] INFO  Utillity.HelperFunction - Test case Name:Unsuccessful Login with invalid credentials
+11:43:32.561 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:43:32.561 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC02
+11:43:32.563 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:43:35.509 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:43:35.529 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:43:43.284 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:43:47.534 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:43:47.534 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:43:47.538 [main] INFO  Utillity.HelperFunction - Test case Name:Attempt to login with empty fields
+11:43:47.538 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:43:47.538 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC03
+11:43:47.538 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:43:50.399 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:43:50.427 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:43:56.822 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:44:00.669 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:44:00.671 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:44:00.672 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+11:44:00.672 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:44:00.674 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+11:44:00.676 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:44:03.605 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:44:03.636 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:44:14.636 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:44:24.206 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:45:30.794 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:45:30.794 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:45:30.794 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+11:45:30.794 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:45:30.794 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+11:45:30.803 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:45:33.879 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:45:33.906 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:45:43.847 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:45:51.585 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:45:54.473 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:45:54.474 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:45:54.474 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+11:45:54.474 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:45:54.474 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+11:45:54.474 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:45:57.382 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:45:57.396 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:46:06.733 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:46:13.469 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:46:40.436 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:46:40.436 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:46:40.436 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+11:46:40.436 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:46:40.436 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+11:46:40.436 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:46:43.294 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:46:43.318 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:46:53.170 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:47:01.405 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:47:39.418 [main] INFO  Utillity.ReportGen - ###############################################################
+11:47:39.420 [main] DEBUG Utillity.ReportGen - Report Generation called
+11:47:42.200 [main] DEBUG Utillity.ReportGen - Report Generated
+11:47:42.208 [main] INFO  Utillity.ReportGen - ###############################################################
+11:50:26.311 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:50:26.312 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:50:26.316 [main] INFO  Utillity.HelperFunction - Test case Name:Successful Login with valid credentials
+11:50:26.316 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:50:26.320 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC01
+11:50:26.387 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:50:29.875 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:50:29.906 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:50:38.247 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:50:46.670 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:50:48.042 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:50:48.042 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:50:48.042 [main] INFO  Utillity.HelperFunction - Test case Name:Unsuccessful Login with invalid credentials
+11:50:48.042 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:50:48.050 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC02
+11:50:48.050 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:50:50.968 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:50:50.990 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:50:58.879 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:51:05.070 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:51:05.076 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:51:05.076 [main] INFO  Utillity.HelperFunction - Test case Name:Attempt to login with empty fields
+11:51:05.076 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:51:05.079 [main] DEBUG Utillity.HelperFunction - Test case Tag:TC03
+11:51:05.079 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:51:08.036 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:51:08.055 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:51:14.237 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:51:17.750 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:51:17.753 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:51:17.753 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+11:51:17.753 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:51:17.755 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+11:51:17.757 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:51:20.678 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:51:20.700 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:51:25.994 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:51:32.574 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:52:40.405 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:52:40.405 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:52:40.405 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+11:52:40.405 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:52:40.405 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+11:52:40.411 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:52:43.376 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:52:43.395 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:52:52.972 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:52:59.545 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:53:17.204 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:53:17.210 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:53:17.210 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+11:53:17.210 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:53:17.210 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+11:53:17.214 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:53:20.163 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:53:20.178 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:53:29.055 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:53:35.700 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:54:03.003 [main] INFO  Utillity.HelperFunction - Scenario called 
+11:54:03.003 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:54:03.007 [main] INFO  Utillity.HelperFunction - Test case Name:User successfully submits the form with valid inputs
+11:54:03.007 [main] INFO  Utillity.HelperFunction - ###############################################################
+11:54:03.007 [main] DEBUG Utillity.HelperFunction - Test case Tag:RFQ_TC01
+11:54:03.010 [main] DEBUG Utillity.BrowserControl - Driver initiated 
+11:54:05.888 [main] DEBUG Utillity.BrowserControl - Edge Browser lanuched Successfully
+11:54:05.905 [main] DEBUG Utillity.BrowserControl - URLhttps://ncpuatnew.olamagri.com/
+11:54:14.039 [main] INFO  Utillity.BrowserControl - edge Driver lanched
+11:54:20.727 [main] INFO  BusinessLogic.Businessfunction - Hi Arjun Rathinasamy Welcome into Procon LandingPage
+11:54:59.832 [main] INFO  Utillity.ReportGen - ###############################################################
+11:54:59.832 [main] DEBUG Utillity.ReportGen - Report Generation called
+11:55:02.292 [main] DEBUG Utillity.ReportGen - Report Generated
+11:55:02.294 [main] INFO  Utillity.ReportGen - ###############################################################
