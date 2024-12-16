@@ -12,6 +12,7 @@ import org.testng.annotations.AfterSuite;
         features = "src/test/resources/Features/",
         glue={"StepDefinition", "Utillity"},
         tags = "@TC01",
+
         plugin = {"json:target/cucumber.json"},
         monochrome=true
 )

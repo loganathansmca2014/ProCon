@@ -33,6 +33,40 @@ public class HelperFunction {
     public static String password;
     public static String inValiduserName;
     public static String inValidpassword;
+    /****************************************************************************************
+     * DESCRIPTION: This method captures a screenshot if the test scenario fails and attaches
+     * the screenshot to the Cucumber report. It also ensures that the WebDriver is properly
+     * quit after the test scenario execution, whether it passes or fails.
+     * <p>
+     * The method performs the following actions:
+     * 1. **Check Scenario Status**:
+     *    - The method checks if the scenario has failed using `scenario.isFailed()`.
+     * <p>
+     * 2. **Capture Screenshot**:
+     *    - If the scenario has failed, the method captures a screenshot of the current page
+     *      as a byte array using `getScreenshotAs` from the `TakesScreenshot` interface of the WebDriver.
+     * <p>
+     * 3. **Attach Screenshot to Scenario**:
+     *    - The screenshot (as byte data) is then attached to the test scenario using `scenario.attach()`.
+     *    - The screenshot is embedded into the Cucumber report with the mime type `"image/png"` and
+     *      the scenario name as the label.
+     * <p>
+     * 4. **Quit WebDriver**:
+     *    - After the scenario completes, the WebDriver instance is properly quit using `driver.quit()`
+     *      to close all associated windows and free up resources.
+     * <p>
+     * Created By: Loganathan Sengottaiyan
+     * Created DATE: 15 Dec 2024
+     * UPDATED BY:
+     * UPDATED DATE:
+     * Method: takeScreenshotOnFailure(Scenario scenario)
+     * Example:
+     *    - This method is automatically invoked after each scenario. If the scenario fails,
+     *      a screenshot will be taken and attached to the Cucumber report. Additionally, the
+     *      WebDriver is quit after the scenario execution.
+     *      Example: No need to manually call, as this is a Cucumber `@After` hook.
+     ****************************************************************************************/
+
     @Before
     public void startTest(Scenario scenario) throws IOException {
         HelperFunction.scenario =scenario;
@@ -64,6 +98,39 @@ public class HelperFunction {
             }
 
     }
+    /****************************************************************************************
+     * DESCRIPTION: This method captures a screenshot if the test scenario fails and attaches
+     * the screenshot to the Cucumber report. It also ensures that the WebDriver is properly
+     * quit after the test scenario execution, whether it passes or fails.
+     * <p>
+     * The method performs the following actions:
+     * 1. **Check Scenario Status**:
+     *    - The method checks if the scenario has failed using `scenario.isFailed()`.
+     * <p>
+     * 2. **Capture Screenshot**:
+     *    - If the scenario has failed, the method captures a screenshot of the current page
+     *      as a byte array using `getScreenshotAs` from the `TakesScreenshot` interface of the WebDriver.
+     * <p>
+     * 3. **Attach Screenshot to Scenario**:
+     *    - The screenshot (as byte data) is then attached to the test scenario using `scenario.attach()`.
+     *    - The screenshot is embedded into the Cucumber report with the mime type `"image/png"` and
+     *      the scenario name as the label.
+     *
+     * 4. **Quit WebDriver**:
+     *    - After the scenario completes, the WebDriver instance is properly quit using `driver.quit()`
+     *      to close all associated windows and free up resources.
+     *
+     * Created By: Loganathan Sengottaiyan
+     * Created DATE: 15 Dec 2024
+     * UPDATED BY:
+     * UPDATED DATE:
+     * Method: takeScreenshotOnFailure(Scenario scenario)
+     * Example:
+     *    - This method is automatically invoked after each scenario. If the scenario fails,
+     *      a screenshot will be taken and attached to the Cucumber report. Additionally, the
+     *      WebDriver is quit after the scenario execution.
+     *      Example: No need to manually call, as this is a Cucumber `@After` hook.
+     ****************************************************************************************/
 
     @After
     public void takeScreenshotOnFailure(Scenario scenario)
@@ -84,6 +151,36 @@ public class HelperFunction {
 
     }
 
+    /****************************************************************************************
+     * DESCRIPTION: This method captures a screenshot of the current page and attaches it
+     * to the test scenario in the report if the scenario has not failed. The screenshot is
+     * saved in PNG format and is included in the test report under the section "Evidences".
+     *
+     * The method performs the following actions:
+     * 1. **Scenario Check**:
+     *    - The method checks if the test scenario has not failed (`!scenario.isFailed()`)
+     *      and if the `scenario` object is not `null`.
+     *
+     * 2. **Capture Screenshot**:
+     *    - If the scenario is successful, the method captures a screenshot by invoking
+     *      `getScreenshotAs` from the `TakesScreenshot` interface of the WebDriver.
+     *    - The screenshot is captured as a byte array (`byte[]`).
+     *
+     * 3. **Attach Screenshot to Scenario**:
+     *    - The screenshot (as byte data) is attached to the test scenario using
+     *      `scenario.attach()`, with the mime type `"image/png"`. This makes the screenshot
+     *      appear in the test report under the section labeled "Evidences".
+     *
+     * Created By: Loganathan Sengottaiyan
+     * Created DATE: 15 Dec 2024
+     * UPDATED BY:
+     * UPDATED DATE:
+     * Method: takeScreenshot()
+     * Example:
+     *    - Call this method to capture a screenshot and attach it to the test scenario when
+     *      the scenario has not failed.
+     *      Example: takeScreenshot();
+     ****************************************************************************************/
 
     public static void takeScreenshot() {
 
@@ -96,17 +193,43 @@ public class HelperFunction {
 
     }
 
-    /**
-     * Waits until the page is fully loaded.
+    /****************************************************************************************
+     * DESCRIPTION: This method waits for a web page to completely load within the specified
+     * timeout duration. It uses JavaScript to check if the document's `readyState` is "complete",
+     * indicating that the page has fully loaded.
      *
-     * @param driver  The WebDriver instance.
-     * @param timeout The maximum time to wait in seconds.
-     */
+     * The method performs the following steps:
+     * 1. **WebDriverWait Initialization**:
+     *    - A `WebDriverWait` instance is created using the provided `driver` and `timeout`.
+     *
+     * 2. **Wait for Page Load**:
+     *    - The method waits for the page to be fully loaded by executing a JavaScript command
+     *      that checks the `document.readyState`.
+     *    - It waits until the value of `document.readyState` is equal to "complete",
+     *      indicating that the page has finished loading.
+     *
+     * 3. **Error Handling**:
+     *    - If the page does not load within the specified timeout, the method catches the exception
+     *      and prints a message indicating that the page failed to load within the given time.
+     *
+     * Created By: Loganathan Sengottaiyan
+     * Created DATE: 15 Dec 2024
+     * UPDATED BY:
+     * UPDATED DATE:
+     * Method: waitForPageToLoad(driver, timeout)
+     * Example:
+     *    - Call this method to ensure a page has fully loaded within a given timeout.
+     *      Example: waitForPageToLoad(driver, Duration.ofSeconds(30));
+     ****************************************************************************************/
+
     public static void waitForPageToLoad(WebDriver driver, Duration timeout) {
         try {
             WebDriverWait wait = new WebDriverWait(driver, timeout);
             wait.until((ExpectedCondition<Boolean>) wd ->
-                    ((JavascriptExecutor) wd).executeScript("return document.readyState").equals("complete")
+                    {
+                        assert wd != null;
+                        return ((JavascriptExecutor) wd).executeScript("return document.readyState").equals("complete");
+                    }
             );
         } catch (Exception e) {
             System.out.println("Page did not load within " + timeout + " seconds: " + e.getMessage());
@@ -136,11 +259,35 @@ public class HelperFunction {
         inValidpassword = prop.getProperty("inValidpassword");
     }
 
-    /**
-     * Waits for the page to load completely by checking the document.readyState property.
+    /****************************************************************************************
+     * DESCRIPTION: This method waits for the page to load completely by checking the
+     * `document.readyState` property. It waits for the page to reach the 'complete' state.
      *
-     * @param driver The WebDriver instance.
-     */
+     * The method performs the following actions:
+     * 1. **Wait for Page Load**:
+     *    - It uses a `JavascriptExecutor` to execute JavaScript on the browser and checks the value of `document.readyState`.
+     *    - The method will wait until the page load state becomes 'complete'.
+     *
+     * 2. **Polling Every Second**:
+     *    - The method checks the page load status every 2 seconds, up to a maximum of 30 seconds.
+     *    - If the page is not fully loaded within 30 seconds, it throws a `RuntimeException`.
+     *
+     * 3. **Handling Interruptions**:
+     *    - If the `Thread.sleep()` method is interrupted during the wait, it logs the error message.
+     *
+     * Created By: Loganathan Sengottaiyan
+     * Created DATE: 15 Dec 2024
+     * UPDATED BY:
+     * UPDATED DATE:
+     * Method: waitForPageLoad(WebDriver driver)
+     * Example:
+     *    - This method can be used in Selenium-based tests to ensure that the page has finished loading
+     *      before proceeding with further actions. Example usage: `waitForPageLoad(driver)`.
+     *
+     * @param driver - The WebDriver instance used to interact with the browser.
+     * @throws RuntimeException if the page does not load within 30 seconds.
+     ****************************************************************************************/
+
     public static void waitForPageLoad(WebDriver driver) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         for (int i = 0; i < 30; i++) { // Maximum wait of 30 seconds
@@ -157,12 +304,39 @@ public class HelperFunction {
     }
 
 
-    /**
-     * Highlights the given element by changing its style temporarily.
+    /****************************************************************************************
+     * DESCRIPTION: This method highlights a given web element by changing its style temporarily.
+     * It modifies the element's CSS to display a green border and a yellow background, making it
+     * stand out visually for better visibility during automation tests or debugging sessions.
      *
-     * @param driver  The WebDriver instance.
-     * @param element The WebElement to highlight.
-     */
+     * The method performs the following actions:
+     * 1. **Original Style Preservation**:
+     *    - The original style of the element is saved so that it can be restored after highlighting.
+     *
+     * 2. **Style Modification**:
+     *    - The method uses JavaScript (via `JavascriptExecutor`) to modify the element's CSS properties.
+     *    - It sets a green border and a yellow background for the highlighted effect.
+     *
+     * 3. **Sleep for Highlighting**:
+     *    - The element is highlighted for 500 milliseconds using `Thread.sleep()` to ensure the effect is visible.
+     *
+     * 4. **Restoring Original Style**:
+     *    - The original style of the element is not restored in the current method, but it could be if desired.
+     *
+     * Created By: Loganathan Sengottaiyan
+     * Created DATE: 15 Dec 2024
+     * UPDATED BY:
+     * UPDATED DATE:
+     * Method: highlightElement(WebDriver driver, WebElement element)
+     * Example:
+     *    - This method can be used in Selenium-based tests when you want to visually highlight an
+     *      element on the page for debugging purposes. Example usage: `highlightElement(driver, element);`.
+     *
+     * @param driver - The WebDriver instance used to interact with the browser.
+     * @param element - The WebElement that you want to highlight.
+     * @throws InterruptedException if the thread sleep is interrupted during the highlight process.
+     ****************************************************************************************/
+
     public static void highlightElement(WebDriver driver, WebElement element) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         // Save the original style of the element
@@ -176,12 +350,36 @@ public class HelperFunction {
             System.out.println("Highlight interrupted: " + e.getMessage());
         }
     }
-
-    /**
-     * Performs mouse hover over a given web element.
+    /****************************************************************************************
+     * DESCRIPTION: This method performs a hover action on a given web element using Selenium's
+     * Actions class. The method simulates the mouse movement to the element, causing a hover
+     * effect. This is particularly useful when interacting with elements that are revealed
+     * or activated upon hover, such as dropdown menus or tooltips.
      *
-     * @param element The WebElement to hover over.
-     */
+     * The method does the following:
+     * 1. **Actions Object**: The method creates an instance of the `Actions` class, which provides
+     *    several advanced user interaction capabilities such as moving the mouse to an element.
+     *
+     * 2. **Move to Element**: The `moveToElement()` method of `Actions` is used to simulate
+     *    the mouse hover over the specified element.
+     *
+     * 3. **Perform Action**: The `perform()` method is called to actually perform the hover action.
+     *
+     * 4. **Error Handling**: If an error occurs during the hover action (e.g., the element is
+     *    not found or an interaction issue), an exception is caught, and an error message is logged.
+     *
+     * Created By: Loganathan Sengottaiyan
+     * Created DATE: 15 Dec 2024
+     * UPDATED BY:
+     * UPDATED DATE:
+     * Method: hoverOverElement(WebElement element)
+     * Example:
+     *    - This method can be used when you need to hover over an element to trigger a dropdown
+     *      or reveal additional options. Example usage: `hoverOverElement(driver, element);`.
+     *
+     * @param element - The WebElement that you want to hover over.
+     ****************************************************************************************/
+
     public static void hoverOverElement(WebElement element) {
         try {
             Actions actions = new Actions(driver);
@@ -244,13 +442,80 @@ public class HelperFunction {
         }
     }
 
-    /**
-     * Scroll to a specific WebElement.
-     * @param element The WebElement to scroll to.
-     */
+    /****************************************************************************************
+     * DESCRIPTION: This method scrolls the page to bring a specific web element into view
+     * using JavaScript execution. It uses the `scrollIntoView()` method, which is a JavaScript
+     * function that scrolls the browser window to ensure the element is visible to the user.
+     * This is helpful when an element is not in the current viewport, and you need to scroll
+     * the page to interact with it.
+     *
+     * The method does the following:
+     * 1. **JavascriptExecutor**: The method casts the WebDriver instance (`driver`) to a `JavascriptExecutor`,
+     *    which allows executing JavaScript code within the context of the browser.
+     *
+     * 2. **Scroll Into View**: The method executes JavaScript to scroll the given element into view
+     *    by calling `scrollIntoView(true)`. This ensures the element is visible in the viewport,
+     *    bringing it to the top of the screen.
+     *
+     * 3. **Element Visibility**: After executing the script, the page is scrolled so that the element is
+     *    within the visible portion of the browser window.
+     *
+     * Created By: Loganathan Sengottaiyan
+     * Created DATE: 15 Dec 2024
+     * UPDATED BY:
+     * UPDATED DATE:
+     * Method: scrollToElement(WebElement element)
+     * Example:
+     *    - This method can be used when the element is located outside the current viewport
+     *      and you need to scroll to it. Example usage: `scrollToElement(driver, someElement);`.
+     *
+     * @param element - The WebElement that needs to be scrolled into view.
+     ****************************************************************************************/
+
     public static void scrollToElement(WebElement element) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+    // Method to accept the alert
+    public static void acceptAlert(WebDriver driver) {
+        try {
+            Alert alert = driver.switchTo().alert();
+            alert.accept();  // Accept the alert
+        } catch (Exception e) {
+            System.out.println("No alert present to accept.");
+        }
+    }
+
+    // Method to dismiss the alert
+    public static void dismissAlert(WebDriver driver) {
+        try {
+            Alert alert = driver.switchTo().alert();
+            alert.dismiss();  // Dismiss the alert
+        } catch (Exception e) {
+            System.out.println("No alert present to dismiss.");
+        }
+    }
+
+    // Method to get the alert text (optional, for scenarios where you need the text)
+    public static String getAlertText(WebDriver driver) {
+        try {
+            Alert alert = driver.switchTo().alert();
+            return alert.getText();  // Retrieve the alert text
+        } catch (Exception e) {
+            System.out.println("No alert present to retrieve text.");
+            return null;
+        }
+    }
+
+    // Method to send keys to an alert (useful for prompt dialogs)
+    public static void sendKeysToAlert(WebDriver driver, String text) {
+        try {
+            Alert alert = driver.switchTo().alert();
+            alert.sendKeys(text);  // Send text to the alert (for prompts)
+        } catch (Exception e) {
+            System.out.println("No prompt alert present to send keys.");
+        }
     }
     public static HelperFunction getInstance() {
         return INSTANCE;

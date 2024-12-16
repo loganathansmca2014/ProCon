@@ -98,4 +98,23 @@ public class RFQPageLocators {
     public static List<WebElement> listofLabel;
 
 
+
+    @FindBy(xpath = "//span[text()='ADD ITEMS']")
+    public static WebElement addItemRFQ;
+
+    @FindBy(xpath = "//span[@class='subHeading mt-2']")
+    public static WebElement basicinfoLabel;
+
+    @FindBy(xpath = "(//div[@ng-reflect-ng-switch='true'])[1]")
+    public static WebElement clickPlant;
+
+    @FindBy(xpath = "(//span[@class='mdc-list-item__primary-text'])")
+    public static List<WebElement> listOfPlant;
+
+
+
+
+
+
+
 }

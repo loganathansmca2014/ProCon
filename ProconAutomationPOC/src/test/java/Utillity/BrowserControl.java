@@ -2,10 +2,8 @@ package Utillity;
 
 import PageLocators.LoginPageLocators;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.commons.lang.SystemUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
@@ -33,6 +31,22 @@ public class BrowserControl {
     public static String IE;
     static Properties prop = new Properties();
 
+
+
+    /****************************************************************************************
+     * DESCRIPTION: This method loads browser configuration properties from the
+     *              "Browser.properties" file located in the classpath.
+     *              It assigns values to variables used to determine which browsers are enabled.
+     * Created By: Loganathan Sengottaiyan
+     * Created DATE: 10 Dec 2024
+     * UPDATED BY:
+     * UPDATED DATE:
+     * Method: loadPropertiesFile()
+     * Example:
+     *    - Call this method at the beginning of browser initialization to load properties.
+     *    - After calling, use variables like ChromeBrowser, Firefox, Edge to decide browser usage.
+     ****************************************************************************************/
+
     public static void loadPropertiesFile() {
 
         try {
@@ -57,16 +71,16 @@ public class BrowserControl {
         //Load the properties file
         loadPropertiesFile();
         if (ChromeBrowser.compareToIgnoreCase("Yes") == 0) {
-            logger.debug("Driver initiated ");
+            logger.debug("Chrome Driver initiated ");
 
-            logger.debug("Chrome Browser lanuched Successfully");
+            logger.debug("Chrome Browser triggered Successfully");
 
             WebDriverManager.chromedriver().setup();
             //System.setProperty("webdriver.chrome.driver", getDriverPath());
-            WebDriverFactory.getInstance().driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            WebDriverFactory.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
             environment = prop.getProperty("URl");
-            logger.debug("URL" + environment);
-            WebDriverFactory.getInstance().driver.get(environment);
+            logger.debug("URL{}", environment);
+            WebDriverFactory.driver.get(environment);
 
 
         }
@@ -78,34 +92,23 @@ public class BrowserControl {
         loadPropertiesFile();
 
         if (Edge.compareToIgnoreCase("Yes") == 0) {
-            logger.debug("Driver initiated ");
             EdgeOptions edgeOptions = new EdgeOptions();
-
-            // Add options
             edgeOptions.addArguments("--start-maximized");  // Launch Edge maximized
             edgeOptions.addArguments("--inprivate");
-
             // options.addArguments("--headless");        // Run in headless mode
             DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
             desiredCapabilities.setPlatform(Platform.WINDOWS);
             desiredCapabilities.setBrowserName(Edge);
             desiredCapabilities.setBrowserName("MicrosoftEdge");
-
             Map<String, Object> edgePrefs = new HashMap<String, Object>();
             edgePrefs.put("profile.default_content_settings.popups", 0);
             edgePrefs.put("download.prompt_for_download", false);
-
-
             edgeOptions.setCapability("ms:inPrivate", true);
             edgeOptions.setCapability("prefs", edgePrefs);
             edgeOptions.setCapability("useAutomationExtension", false);
-
-
             edgeOptions.merge(desiredCapabilities);
-
             edgeOptions.setCapability("ms:inPrivate", true);
             edgeOptions.setCapability("useAutomationExtension", false);
-
             WebDriverFactory.driver = new EdgeDriver();
             WebDriverFactory.driver.manage().window().maximize();
 
@@ -113,9 +116,9 @@ public class BrowserControl {
             WebDriverFactory.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
             WebDriverFactory.driver.manage().window().maximize();
             environment = prop.getProperty("uat_URl");
-            logger.debug("URL" + environment);
+            logger.debug("URL{}", environment);
             WebDriverFactory.driver.get(environment);
-            waitForPageToLoad(WebDriverFactory.getInstance().driver, Duration.ofSeconds(50));
+            waitForPageToLoad(WebDriverFactory.driver, Duration.ofSeconds(50));
 
         }
     }
@@ -125,14 +128,13 @@ public class BrowserControl {
         loadPropertiesFile();
 
         if (Edge.compareToIgnoreCase("Yes") == 0) {
-            logger.debug("Driver initiated ");
+            logger.debug("Edge Driver initiated ");
             WebDriverManager.edgedriver().setup();
-            WebDriverFactory.getInstance().driver = new EdgeDriver();
-            logger.debug("Edge Browser lanuched Successfully");
+            WebDriverFactory.driver = new EdgeDriver();
             WebDriverFactory.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
             WebDriverFactory.driver.manage().window().maximize();
             environment = prop.getProperty("URl");
-            logger.debug("URL" + environment);
+            logger.debug("URL{}", environment);
             WebDriverFactory.driver.get(environment);
 
 
@@ -163,7 +165,7 @@ public class BrowserControl {
                     break;
 
                 default:
-                    logger.error("Invalid browser name: " + browserType);
+                    logger.error("Invalid browser name: {}", browserType);
                     throw new IllegalArgumentException("Invalid browser name: " + browserType);
             }
         } catch (Exception e) {
@@ -172,13 +174,4 @@ public class BrowserControl {
         }
     }
 
-    private String getDriverPath() {
-        String driverPath = "drivers/%s";
-        if (SystemUtils.IS_OS_MAC) {
-            return String.format(driverPath, "chromedriver");
-        } else {
-            return String.format(driverPath, "chromedriver.exe");
-        }
-
-    }
 }
